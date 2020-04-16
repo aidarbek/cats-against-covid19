@@ -5,7 +5,7 @@ $(document).ready(function() {
         	filterPages = 0;
         else
         	filterPages = 1;
-		if(filterPages){
+		if(filterPages) {
 			$('#status #firstchk').prop('checked', true);
 		}else{
 			$('#status #firstchk').prop('checked', false);
